@@ -12,7 +12,7 @@ def get_birthday_from_user():
     year = input('Year [yyyy]: ')
     month = input('Month [MM]: ')
     Day = input('DAy [DD]: ')
-   
+    Day = input('DAy [DD]: ')
 
     Birthday = datetime.datetime(year, month, Day)
     return Birthday
